@@ -10,8 +10,6 @@ on:
     - 'linux/**'
     - 'package_creators/**'
     - 'src/rust/**'
-    tags-ignore: # ignore push via new tag
-    - '*.*'
   pull_request:
     types: [opened, synchronize, reopened]
     paths:
